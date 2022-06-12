@@ -17,7 +17,7 @@ int main() {
     const auto solution = Solver::solve(b);
     std::cout << solution.moves() << "\n\n";
 
-    for (const auto & move : solution) {
+    for (const auto& move : solution) {
         std::cout << move << std::endl;
     }
 }
